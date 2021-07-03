@@ -26,3 +26,11 @@ const styles = StyleSheet.create({
             }),
     },
 });
+
+/* StyleSheet를 사용한 Shadow박스
+ ...Platform모듈의 select함수를 통해 각 OS별로 같거나 다른 스타일을 줄 수 있습니다.
+ 
+ 다른 예시)
+    const styles = StyleSheet.create({
+    wrapper: Platform.OS === 'ios' ? { backgroundColor: 'red' } : {backgroundColor: 'blue'} });
+ */
