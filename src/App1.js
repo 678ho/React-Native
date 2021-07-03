@@ -29,5 +29,5 @@ const App = () => {
 
 export default App;
 
-/* Inline Styling은 HTML의 인라인 스타일링처럼 컴포넌트에 직접 스타일을 입력하는 방식.
-   But 리액트 네이티브에서는 객체 형태로 전달. */
+/* 인라인 방식의 CSS는 클래스 OR 컴포넌트형 함수들에서 js object형식으로 만들어서 직접 태그에 넣는 방식의 스타일 방식.
+   APP 함수에 직접 작성.*/
